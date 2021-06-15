@@ -1,0 +1,71 @@
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: crimson;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family:  'Shadows Into Light', cursive;
+ margin-bottom: 30px;
+}
+
+.button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+body {
+    text-align: center;
+    background-image: url("cool-background.png");
+}
+#work {
+text-align:left;
+}
+h1 {
+
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Dosis', sans-serif;
+    color: royalblue;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Caveat', cursive;
+    color: slateblue;
+}
+    html {
+        scroll-behavior: smooth;
+    }
+    #myNavbar {
+        background-color: cornflowerblue;
+       
+    }
+    #myNavbar li a {
+       color : midnightblue ;
+    }
+       li a:hover {
+        background-color: rgb(25, 99, 236) !important;
+        color: white !important;
+      }
+      nav {
+        margin-bottom: 30px;
+    }
+    p {
+font-family: 'Shadows Into Light', cursive;
+color: midnightblue;
+font-size:25px;
+    }
+    #marqueeStyle {
+        font-family: 'Caveat', cursive;
+        font-size:45px;
+
+    }
+    
